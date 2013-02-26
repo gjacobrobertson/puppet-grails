@@ -1,8 +1,8 @@
-# Public: Install groovy into Homebrew
+# Public: Install grails into Homebrew
 #
 # Examples
 #
-#   include groovy
-class groovy {
-  package { 'groovy': }
+#   include grails
+class grails {
+  package { 'grails': }
 }
