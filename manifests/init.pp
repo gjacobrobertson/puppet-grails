@@ -4,5 +4,5 @@
 #
 #   include groovy
 class groovy {
-  package { 'groovy' }
+  package { 'groovy': }
 }
