@@ -10,7 +10,7 @@ class grails::2-0-4 {
     before => Package['boxen/brews/grails'],
   }
 
-  package { 'boxen/brews/grails':
+  package { 'boxen/brews/grails-2.0.4':
     ensure => '2.0.4-boxen1'
   }
 }
