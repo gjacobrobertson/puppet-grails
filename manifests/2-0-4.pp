@@ -6,7 +6,7 @@
 class grails::2-0-4 {
   include homebrew
 
-  homebrew::formula { 'grails':
+  homebrew::formula { 'grails-2-0-4':
     before => Package['boxen/brews/grails-2-0-4'],
   }
 
