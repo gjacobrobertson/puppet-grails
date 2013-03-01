@@ -6,11 +6,11 @@
 class grails::2-0-3 {
   include homebrew
 
-  homebrew::formula { 'grails-2-0-3':
-    before => Package['boxen/brews/grails-2-0-3'],
+  homebrew::formula { 'grails':
+    before => Package['boxen/brews/grails'],
   }
 
-  package { 'boxen/brews/grails-2-0-3':
+  package { 'boxen/brews/grails':
     ensure => '2.0.3-boxen1'
   }
 }
